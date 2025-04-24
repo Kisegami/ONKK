@@ -1,0 +1,63 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Cấu hình môi trường ảo
+venv/
+.env/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Editor config
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Jupyter Notebook checkpoint
+.ipynb_checkpoints/
+
+# Mặc định OS files
+.DS_Store
+Thumbs.db
+
+# Log và file tạm
+*.log
+*.tmp
+
+# PyInstaller
+*.spec
+dist/
+build/
+
+# Test coverage
+.coverage
+htmlcov/
+.cache/
+.tox/
+.nox/
+
+# Mypy / Pyre
+.mypy_cache/
+.pyre/
+
+# Pylint / Bandit / flake8
+.pylint.d/
+.bandit/
+.flake8
+
+# VS Code local history
+.history/
+
+# Pipenv
+Pipfile.lock
+
+# Poetry
+poetry.lock
+
+#Mấy file vớ vẩn
+*.nc
